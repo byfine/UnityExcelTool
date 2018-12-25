@@ -1,5 +1,5 @@
 # UnityExcelTool
-An Unity Excel Tool, which can convert excel files to json, and auto generate table class and ScriptableObjects.
+A Unity Excel Tool, which can convert excel files to json, and auto generate table class and ScriptableObjects.
 
 ![image1](https://github.com/byfine/UnityExcelTool/raw/master/Readme/p1.jpg)   
 ![image2](https://github.com/byfine/UnityExcelTool/raw/master/Readme/p2.jpg)   
