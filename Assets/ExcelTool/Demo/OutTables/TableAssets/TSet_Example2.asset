@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b796d750cbc3357408ad40b1fb756c54, type: 3}
+  m_Name: TSet_Example2
+  m_EditorClassIdentifier: 
+  values:
+  - {fileID: 114377232817468192}
+  - {fileID: 114719576681718670}
+  - {fileID: 114607106722224086}
+--- !u!114 &114377232817468192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc31a0adc37e50246ae4e0664345858f, type: 3}
+  m_Name: Table_Example2_Rabbit
+  m_EditorClassIdentifier: 
+  tKey: 0
+  ID: 0
+  Name: "\u5154\u5B50"
+  AssetName: Animal01
+  Type: 1
+  Speed: 15
+--- !u!114 &114607106722224086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc31a0adc37e50246ae4e0664345858f, type: 3}
+  m_Name: Table_Example2_Lion
+  m_EditorClassIdentifier: 
+  tKey: 2
+  ID: 2
+  Name: "\u72EE\u5B50"
+  AssetName: Animal03
+  Type: 2
+  Speed: 3
+--- !u!114 &114719576681718670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc31a0adc37e50246ae4e0664345858f, type: 3}
+  m_Name: Table_Example2_Tiger
+  m_EditorClassIdentifier: 
+  tKey: 1
+  ID: 1
+  Name: "\u8001\u864E"
+  AssetName: Animal02
+  Type: 2
+  Speed: 22

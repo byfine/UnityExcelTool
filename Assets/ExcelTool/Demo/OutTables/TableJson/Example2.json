@@ -1,0 +1,23 @@
+﻿[
+  {
+    "ID": "Rabbit",
+    "Name": "兔子",
+    "AssetName": "Animal01",
+    "Type": 1.0,
+    "Speed": 15.0
+  },
+  {
+    "ID": "Tiger",
+    "Name": "老虎",
+    "AssetName": "Animal02",
+    "Type": 2.0,
+    "Speed": 22.0
+  },
+  {
+    "ID": "Lion",
+    "Name": "狮子",
+    "AssetName": "Animal03",
+    "Type": 2.0,
+    "Speed": 3.0
+  }
+]

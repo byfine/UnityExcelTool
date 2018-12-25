@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09812a0950d933b429bcd2493578dbd2, type: 3}
+  m_Name: TSet_Example1
+  m_EditorClassIdentifier: 
+  values:
+  - {fileID: 114906343043923272}
+  - {fileID: 114901794525018946}
+  - {fileID: 114969646438742272}
+--- !u!114 &114901794525018946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebdb0940219bcd0499c86a857ee9beeb, type: 3}
+  m_Name: Table_Example1_2
+  m_EditorClassIdentifier: 
+  tKey: 2
+  ID: 2
+  Name: "\u5C0F\u7EA2"
+  AssetName: Hero02
+  HP: 352
+  Attack: 22
+  Defence: 3
+--- !u!114 &114906343043923272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebdb0940219bcd0499c86a857ee9beeb, type: 3}
+  m_Name: Table_Example1_1
+  m_EditorClassIdentifier: 
+  tKey: 1
+  ID: 1
+  Name: "\u5C0F\u660E"
+  AssetName: Hero01
+  HP: 100
+  Attack: 15
+  Defence: 0
+--- !u!114 &114969646438742272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebdb0940219bcd0499c86a857ee9beeb, type: 3}
+  m_Name: Table_Example1_3
+  m_EditorClassIdentifier: 
+  tKey: 3
+  ID: 3
+  Name: "\u5C0F\u521A"
+  AssetName: Hero03
+  HP: 332
+  Attack: 3
+  Defence: 44

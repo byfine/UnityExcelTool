@@ -1,0 +1,26 @@
+﻿[
+  {
+    "ID": 1.0,
+    "Name": "小明",
+    "AssetName": "Hero01",
+    "HP": 100.0,
+    "Attack": 15.0,
+    "Defence": 0.0
+  },
+  {
+    "ID": 2.0,
+    "Name": "小红",
+    "AssetName": "Hero02",
+    "HP": 352.0,
+    "Attack": 22.0,
+    "Defence": 3.0
+  },
+  {
+    "ID": 3.0,
+    "Name": "小刚",
+    "AssetName": "Hero03",
+    "HP": 332.0,
+    "Attack": 3.0,
+    "Defence": 44.0
+  }
+]
