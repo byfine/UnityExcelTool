@@ -197,6 +197,13 @@ public class FileExporter
             string type = sheet.Rows[1][column].ToString();
             string comment = sheet.Rows[2][column].ToString();
             
+            if (string.IsNullOrEmpty(name)) continue;
+            if (string.IsNullOrEmpty(type)) type = "string";
+            if (!string.IsNullOrEmpty(comment))
+            {
+                comment = comment.Replace("\n", ",").Replace("\r", ",");
+            }
+            
             sb.AppendFormat("\tpublic {0} {1}; // {2}", type, name, comment);
             sb.AppendLine();
         }
@@ -315,6 +322,9 @@ public class FileExporter
                 string type = sheet.Rows[1][j].ToString();
                 string val = sheet.Rows[i][j].ToString();
 
+                if (string.IsNullOrEmpty(name)) continue;
+                if (string.IsNullOrEmpty(type)) type = "string";
+                
                 object o = SetObjectFiled(dataObj, tableType.GetField(name), type, val);
                 if (j == 0)
                 {

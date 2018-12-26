@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: TSet_Example2
   m_EditorClassIdentifier: 
   values:
-  - {fileID: 114377232817468192}
-  - {fileID: 114719576681718670}
-  - {fileID: 114607106722224086}
---- !u!114 &114377232817468192
+  - {fileID: 114014265183241228}
+  - {fileID: 114648744716444986}
+  - {fileID: 114313755086102142}
+--- !u!114 &114014265183241228
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -34,7 +34,7 @@ MonoBehaviour:
   AssetName: Animal01
   Type: 1
   Speed: 15
---- !u!114 &114607106722224086
+--- !u!114 &114313755086102142
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -52,7 +52,7 @@ MonoBehaviour:
   AssetName: Animal03
   Type: 2
   Speed: 3
---- !u!114 &114719576681718670
+--- !u!114 &114648744716444986
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

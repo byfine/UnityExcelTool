@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: TSet_Example1
   m_EditorClassIdentifier: 
   values:
-  - {fileID: 114906343043923272}
-  - {fileID: 114901794525018946}
-  - {fileID: 114969646438742272}
---- !u!114 &114901794525018946
+  - {fileID: 114863161785676634}
+  - {fileID: 114476506423439652}
+  - {fileID: 114921003356810632}
+--- !u!114 &114476506423439652
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -35,7 +35,7 @@ MonoBehaviour:
   HP: 352
   Attack: 22
   Defence: 3
---- !u!114 &114906343043923272
+--- !u!114 &114863161785676634
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54,7 +54,7 @@ MonoBehaviour:
   HP: 100
   Attack: 15
   Defence: 0
---- !u!114 &114969646438742272
+--- !u!114 &114921003356810632
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
