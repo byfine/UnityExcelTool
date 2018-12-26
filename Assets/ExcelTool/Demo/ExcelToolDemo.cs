@@ -25,7 +25,7 @@ public class ExcelToolDemo : MonoBehaviour
 
         Debug.Log("Table1 Data 1: Name:" + Table1[1].Name + ", HP:" + Table1[1].HP + ", Attack:" + Table1[1].Attack);
         
-        //Debug.Log("Table2 Data 2: Name:" + Table2["A2"].Name + ", Asset:" + Table2["A2"].AssetName + ", Type:" + Table2["A2"].Type);
+        Debug.Log("Table2: Name:" + Table2[Animal.Rabbit].Name + ", Asset:" + Table2[Animal.Rabbit].AssetName + ", Type:" + Table2[Animal.Rabbit].Type);
         
         
     }
